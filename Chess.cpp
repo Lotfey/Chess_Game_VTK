@@ -1,17 +1,7 @@
 // Lotfi Achiri 
 // Master 2 techmed 
 //2021/2022
-
-
-
-// This program draws a checkerboard and clips it with two planes.
-// 
 //
-//
-//
-
-
-
 #include<iostream>
 #include <vtkCubeSource.h>
 #include <vtkActor.h>
@@ -57,9 +47,6 @@
 
 #include "Chess.h"
 
-
-
-////////////////////////////////////////////////////////
 namespace
 {
 	// Make a rectilinear grid that shows image-like checkerboard data
@@ -67,55 +54,6 @@ namespace
 } 
 
 
-//void Observer::Execute(vtkObject *caller, unsigned long eventID, void*) {
-//	vtkRenderWindowInteractor *interactor = vtkRenderWindowInteractor::SafeDownCast(caller);
-//	//Vérifier Si 'r' appuyé
-//	char Key;
-//	Key=interactor->GetKeyCode();
-//	
-//
-//	if (Key == 'z')
-//	{
-//		if (Y < YMax) {
-//			cout << "up key pressed" << endl;
-//			Y = Y + 3;
-//			CubeSource->SetCenter(X, Y, 0.5);
-//		}
-//		else{ cout << "YMAx reached" << endl; }
-//	}
-//
-//	else if (Key == 's')
-//	{
-//		if (Y > YMin) {
-//			cout << "down key pressed" << endl;
-//			Y = Y - 3;
-//			CubeSource->SetCenter(X, Y, 0.5);
-//		}
-//		else { cout << "YMin reached" << endl; }
-//	}
-//
-//	else if (Key == 'd') {
-//		if (X < XMax) {
-//			X = X + 3;
-//			CubeSource->SetCenter(X, Y, 0.5);
-//		}
-//		else { cout << "XMAx reached" << endl; }
-//	}
-//	else {
-//		if (X > XMin) {
-//			X = X - 3;
-//			CubeSource->SetCenter(X, Y, 0.5);
-//		}
-//		else { cout << "XMin reached" << endl; }
-//	}
-//}
-
-// Execute the observer class to move the chess piece " the king" utiling z,q,s and d key
-// z: move upward
-// s: move down
-// d: move to the right
-// q: move to the left 
-// to move one square horizontally or vertecally a factor of 6 should be applied
 
 void Observer::Execute(vtkObject *caller, unsigned long eventID, void* )
 {
@@ -123,31 +61,6 @@ void Observer::Execute(vtkObject *caller, unsigned long eventID, void* )
 	
 	char Key;
 	Key = interactor->GetKeyCode();
-	
-	/*switch (Key) {
-
-	case ('z'):
-		cout << "up key pressed" << endl;
-		Y = Y + 6;
-		Actor->SetOrigin(X, Y, 0.5);
-		break;
-
-	case ('s'):
-		cout << "down key pressed" << endl;
-		Y = Y - 6;
-		Actor->SetOrigin(X, Y, 0.5);
-		break;
-	case ('d'):
-		cout << "right key pressed" << endl;
-		Y = X + 6;
-		Actor->SetOrigin(X, Y, 0.5);
-		break;
-	case ('a'):
-		cout << "left key pressed" << endl;
-		Y = X - 6;
-		Actor->SetOrigin(X, Y, 0.5);
-		break;
-	}*/
 	if (Key == 'z')
 	{
 		if (Y < YMax)
@@ -205,7 +118,6 @@ void Observer::Execute(vtkObject *caller, unsigned long eventID, void* )
 	}
 	
 }
-
 
 namespace
 {
@@ -321,7 +233,7 @@ int main(int, char*[])
 	actor->GetProperty()->SetDiffuse(.7);
 	actor->GetProperty()->SetSpecularPower(20);
 	actor->GetProperty()->SetSpecular(.5);
-	//actor->SetPosition(0, 0, 0);
+
 	// Set the origin of the chess piece and rescale the .obj to fit on one square  
 	// put the chess piece on the buttom left of the board 
 	actor->SetOrigin(0.8, -13, 0); 
@@ -364,12 +276,6 @@ int main(int, char*[])
 	interactor->SetInteractorStyle(style);
 	interactor->SetRenderWindow(renderWindow);
 	interactor->Initialize();
-
-	
-
-	// Add the actors to the scene
-	//renderer->AddActor(cubeActor);
-	//renderer->AddActor(coneActor2);
 
 	// Creating the board
 	vtkSmartPointer<vtkRectilinearGrid> image = makeImage(imageSize);
@@ -427,9 +333,6 @@ int main(int, char*[])
 	interactor->AddObserver(vtkCommand::KeyPressEvent, observer);
 	renderWindow->Render();
 	interactor->Start();
-
-
-
 	return EXIT_SUCCESS;
 }
 

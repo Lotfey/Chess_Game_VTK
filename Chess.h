@@ -4,7 +4,7 @@
 
 
 /*
-* This observer class runs constantly after the run to recuperate the new 
+* This is observer class runs constantly after the run to recuperate the new observer
 */
 
 class Observer : public vtkCommand {
