@@ -1,0 +1,3 @@
+C:/Users/lotfi/Downloads/Chess/Chess/build/CMakeFiles/Chess.dir
+C:/Users/lotfi/Downloads/Chess/Chess/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/lotfi/Downloads/Chess/Chess/build/CMakeFiles/ZERO_CHECK.dir

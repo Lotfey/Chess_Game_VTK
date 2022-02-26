@@ -1,0 +1,55 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/ExternalData.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/GenerateExportHeader.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
+C:/Users/lotfi/Downloads/Chess/Chess/CMakeLists.txt
+C:/Users/lotfi/Downloads/Chess/Chess/build/CMakeFiles/3.21.3/CMakeCCompiler.cmake
+C:/Users/lotfi/Downloads/Chess/Chess/build/CMakeFiles/3.21.3/CMakeCXXCompiler.cmake
+C:/Users/lotfi/Downloads/Chess/Chess/build/CMakeFiles/3.21.3/CMakeRCCompiler.cmake
+C:/Users/lotfi/Downloads/Chess/Chess/build/CMakeFiles/3.21.3/CMakeSystem.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/VTK-targets.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/VTK-vtk-module-properties.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/patches/99/FindOpenGL.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/vtk-config.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/vtk-find-package-helpers.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/vtk-prefix.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/vtkCMakeBackports.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/vtkEncodeString.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/vtkHashSource.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/vtkModule.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/vtkModuleJson.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/vtkModuleTesting.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/vtkObjectFactory.cmake
+C:/VTK_build/lib/cmake/vtk-9.1/vtkTopologicalSort.cmake
+C:/VTK_build/vtk-config-version.cmake
+C:/VTK_build/vtk-config.cmake
